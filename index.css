@@ -1,0 +1,50 @@
+body{
+    background-image: url("https://designimages.appypie.com/appbackground/appbackground-58-grass-plant.jpg");
+   
+ }
+ .container{
+    
+     background-color: wheat;
+     display: flex;
+     flex-direction: column;
+  
+     
+    justify-content: space-around;
+    align-items: center;
+  width: 600px;
+  height: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+ }
+ .container:hover {
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+   }
+   
+ header{
+      text-align: center;
+     background-color: wheat;
+ 
+ }
+ button{
+     width: 100px;
+     height: 50px;
+     background-color: white;
+     
+ }
+ table{
+     position: relative;
+     left: 100px;
+     border-spacing: 10px;
+ }
+ #videoContainer {
+    margin: auto;
+    width: 300px;
+    text-align: center;
+}
+#videoElement {
+    width: 100%;
+    height: auto;
+}
+#result {
+    color: black;
+}
